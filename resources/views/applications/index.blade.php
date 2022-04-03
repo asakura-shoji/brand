@@ -49,7 +49,7 @@
 	    			南原竜樹 冷徹な教え<br>
 	    			でも紹介されました
 	    		</h1>
-	    		<iframe width="100%" src="https://www.youtube.com/embed/tXbnC_3nFYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    		<iframe style="aspect-ratio: 16 / 9; width: 100%; max-width: 800px;" width="100%" src="https://www.youtube.com/embed/tXbnC_3nFYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	    	</div>
 	    	<div class="nayami_block">
 	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_04.png') }}">
