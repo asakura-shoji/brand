@@ -1,0 +1,49 @@
+.application_btn {
+	display: block;
+	position: absolute;
+	width: 440px;
+    bottom: 12px;
+    left: 20px;
+}
+
+.nayami_block {
+	background: url('/images/home/nayami_bg.png') no-repeat right;
+	background-size: auto 100%;
+	padding: 36px 0;
+}
+
+.faq-text {
+	width: calc(100% - 32px);
+}
+
+.w-100 {
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .application_btn {
+        width: 280px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.nayami_block {
+		background: none;
+		padding: 36px 12px;
+	}
+    .application_btn {
+        width: 260px;
+        bottom: 12px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .application_btn {
+        width: 200px;
+        bottom: 8px;
+        left: 0;
+    }
+}
+
