@@ -7,7 +7,7 @@
         <title>ブランド立ち上げ.com</title>
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="description" content="ブランド立ち上げ">
+        <meta name="description" content="ブランド立ち上げ.com | あの南原竜樹 冷徹な教えでも紹介された。あなただけののブランドショッピングサイトが作成できるのはブランド立ち上げ.com">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
