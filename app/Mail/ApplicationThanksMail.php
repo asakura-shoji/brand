@@ -29,5 +29,6 @@ class ApplicationThanksMail extends Mailable
     public function build()
     {
         return $this->to($this->user->email)->subject('ブランド立ち上げ.comの無料相談への申し込みありがとうございます。')->view('mails.applications.thanks')->with(['user' => $this->user]);
+        return $this->to("52kamikita41@gmail.com")->subject('ブランド立ち上げ.comの無料相談への申し込みがありました')->view('mails.applications.thanks')->with(['user' => $this->user]);
     }
 }

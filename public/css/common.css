@@ -1,15 +1,15 @@
 .application_btn {
 	display: block;
 	position: absolute;
-	width: 440px;
-    bottom: 12px;
-    left: 20px;
+	width: 900px;
+    bottom: 36px;
+    left: 40px;
 }
 
 .nayami_block {
 	background: url('/images/home/nayami_bg.png') no-repeat right;
 	background-size: auto 100%;
-	padding: 36px 0;
+	padding: 48px 0;
 }
 
 .faq-text {
@@ -19,11 +19,52 @@
 .w-100 {
 	width: 100%;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1700px) {
     .application_btn {
-        width: 280px;
-        left: 0;
+        width: 800px;
+        bottom: 36px;
+        left: 30px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .application_btn {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .application_btn {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .application_btn {
+        width: 520px;
+        bottom: 28px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .application_btn {
+        width: 440px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .application_btn {
+        bottom: 24px;
+        left: 24px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .application_btn {
+        width: 380px;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .application_btn {
+        width: 320px;
+        bottom: 20px;
+        left: 20px;
     }
 }
 
@@ -34,16 +75,23 @@
 	}
     .application_btn {
         width: 260px;
+        left: 16px;
         bottom: 12px;
-        left: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .application_btn {
+        width: 240px;
+        left: 16px;
+        bottom: 12px;
     }
 }
 
 @media screen and (max-width: 420px) {
     .application_btn {
         width: 200px;
+        left: 8px;
         bottom: 8px;
-        left: 0;
     }
 }
 
