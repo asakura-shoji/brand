@@ -37,7 +37,10 @@
     		</div>
 		@endif
     	<header class="container relative m-auto">
-    		<img src="{{ asset('images/home/main_01.jpg') }}">
+    		<picture>
+			    <source srcset="{{ asset('images/home/main_01.jpg') }}" media="(min-width: 600px)">
+			    <img src="{{ asset('images/home/main_01_sp.png') }}" alt="" />
+			</picture>
     		<a class="application_btn" href="#form">
     			<img class="application_btn" src="{{ asset('images/home/application_btn.png') }}">
     		</a>
@@ -52,7 +55,7 @@
 	    	</div>
 	    	<div class="nayami_block container mx-auto">
 	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_04.png') }}">
-	    		<ul>
+	    		<ul class="w-100 sm:w-2/3 m-auto bg-white/70 p-8 pl-0">
 	    			<li class="flex items-center mb-4">
 	    				<img class="w-6 h-6" src="{{ asset('images/home/main_08.png') }}">
 	    				<div class="text-xl sm:text-2xl ml-4">何から始めていいのか<span class="text-red-500">わからない</span></div>
