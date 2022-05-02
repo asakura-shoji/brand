@@ -190,7 +190,7 @@
 		    		</ul>
 	    		</div>
 	    	</div>
-	    	<div class="container m-auto mb-16 sm:mt-20 sm:mb-20">
+	    	<div class="container m-auto mb-16 mt-20 sm:mb-20">
 	    		<img class="w-100 sm:w-2/3 m-auto" src="{{ asset('images/home/1648984397447.jpg') }}">
 	    	</div>
     		<form class="container m-auto mb-12 px-4 sm:px-0" id="form" method="POST" action="{{ url('application') }}">
