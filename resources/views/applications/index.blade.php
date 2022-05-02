@@ -54,8 +54,8 @@
 	    		<iframe style="aspect-ratio: 16 / 9; width: 100%; max-width: 800px;margin: auto;" width="100%" src="https://www.youtube.com/embed/tXbnC_3nFYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	    	</div>
 	    	<div class="nayami_block container mx-auto">
-	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_04.png') }}">
-	    		<ul class="w-100 sm:w-2/3 m-auto bg-white/70 p-8 pl-0">
+	    		<img class="w-100 sm:w-2/3 m-auto mb-4" src="{{ asset('images/home/main_04.png') }}">
+	    		<ul class="w-100 sm:w-2/3 m-auto bg-white/70 py-8 pr-0 sm:pr-4">
 	    			<li class="flex items-center mb-4">
 	    				<img class="w-6 h-6" src="{{ asset('images/home/main_08.png') }}">
 	    				<div class="text-xl sm:text-2xl ml-4">何から始めていいのか<span class="text-red-500">わからない</span></div>
