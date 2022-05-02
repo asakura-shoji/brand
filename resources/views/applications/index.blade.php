@@ -44,14 +44,13 @@
     	</header>
     	<!-- <h3 class="text-3xl font-bold underline text-clifford">AA</h3> -->
     	<main>
-	    	<div class="bg-gray-100 py-8 px-4">
+	    	<div class="bg-gray-100 pb-16 pt-16 px-4">
 	    		<h1 class="text-2xl sm:text-3xl font-bold text-center mb-8">
-	    			南原竜樹 冷徹な教え<br>
-	    			でも紹介されました
+	    			南原竜樹 冷徹な教えでも紹介されました!
 	    		</h1>
 	    		<iframe style="aspect-ratio: 16 / 9; width: 100%; max-width: 800px;margin: auto;" width="100%" src="https://www.youtube.com/embed/tXbnC_3nFYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	    	</div>
-	    	<div class="nayami_block container m-auto">
+	    	<div class="nayami_block container mx-auto">
 	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_04.png') }}">
 	    		<ul>
 	    			<li class="flex items-center mb-4">
@@ -68,10 +67,10 @@
 	    			</li>
 	    		</ul>
 	    	</div>
-	    	<div class="container m-auto mb-12">
+	    	<div class="container m-auto mb-12 px-4">
 	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/kaiketsu.png') }}">
 	    	</div>
-	    	<div class="container m-auto mb-16 sm:mb-32">
+	    	<div class="container m-auto mb-0 sm:mb-20">
 		    	<ul class="flex flex-wrap sm:-mx-4">
 		    		<li class="px-4 w-100 sm:w-1/3 mb-12">
 		    			<div>
@@ -108,28 +107,30 @@
 		    		</li>
 		    	</ul>
 	    	</div>
-	    	<div class="container m-auto text-center mb-16 sm:mb-32">
-	    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_11.png') }}">
-	    		<ul class="flex flex-wrap sm:-mx-4 mb-12">
-	    			<li class="w-100 sm:w-1/2 px-4 mb-8">
-	    				<img src="{{ asset('images/home/standard_plan.jpg') }}">
-	    			</li>
-	    			<li class="w-100 sm:w-1/2 px-4 mb-8">
-	    				<img src="{{ asset('images/home/premium_plan.jpg') }}">
-	    			</li>
-	    		</ul>
-	    		<div class="text-2xl">
-	    			まずはあなたにあったプランを
-	    		</div>
-	    		<div class="text-2xl mb-8">
-	    			一緒に決めていきましょう。
-	    		</div>
-	    		<div class="px-4">
-	    			<a href="#form">
-	    				<img class="w-100 sm:w-1/2 m-auto" src="{{ asset('images/home/application_btn.png') }}">
-	    			</a>
-	    		</div>
-	    	</div>
+	    	<div class="bg-gray-100 py-20 px-4 mb-20">
+	    		<div class="container m-auto text-center">
+		    		<img class="w-100 sm:w-2/3 m-auto mb-12" src="{{ asset('images/home/main_11.png') }}">
+		    		<ul class="flex flex-wrap sm:-mx-4 mb-12">
+		    			<li class="w-100 sm:w-1/2 px-4 mb-8">
+		    				<img src="{{ asset('images/home/standard_plan.png') }}">
+		    			</li>
+		    			<li class="w-100 sm:w-1/2 px-4 mb-8">
+		    				<img src="{{ asset('images/home/premium_plan.png') }}">
+		    			</li>
+		    		</ul>
+		    		<div class="text-2xl">
+		    			まずはあなたにあったプランを
+		    		</div>
+		    		<div class="text-2xl mb-8">
+		    			一緒に決めていきましょう。
+		    		</div>
+		    		<div class="px-4">
+		    			<a href="#form">
+		    				<img class="w-100 sm:w-1/2 m-auto" src="{{ asset('images/home/application_btn.png') }}">
+		    			</a>
+		    		</div>
+		    	</div>
+		    </div>
 	    	<div class="container m-auto mb-20 px-4 sm:px-0">
 	    		<img class="w-100 sm:w-2/3 m-auto mb-12 sm:mb-20" src="{{ asset('images/home/main_17.png') }}">
 	    		<img class="w-100 m-auto " src="{{ asset('images/home/main_20.png') }}">
@@ -189,7 +190,7 @@
 		    		</ul>
 	    		</div>
 	    	</div>
-	    	<div class="container m-auto my-20">
+	    	<div class="container m-auto mb-16 sm:mt-20 sm:mb-20">
 	    		<img class="w-100 sm:w-2/3 m-auto" src="{{ asset('images/home/1648984397447.jpg') }}">
 	    	</div>
     		<form class="container m-auto mb-12 px-4 sm:px-0" id="form" method="POST" action="{{ url('application') }}">
@@ -254,7 +255,7 @@
                 </div>
                 <div class="text-center">
                 	<button type="submit">
-                		<img class="w-60" src="{{ asset('images/home/form_submit.jpg') }}">
+                		<img class="w-40 sm:w-60" src="{{ asset('images/home/form_submit.jpg') }}">
                 	</button>
                 </div>
     		</form>
